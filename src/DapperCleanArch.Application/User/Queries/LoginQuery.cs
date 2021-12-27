@@ -38,7 +38,7 @@ namespace DapperCleanArch.Application.User.Queries
                .GetUserByName(request.User);
 
             if (user is null)
-                throw new DapperCleanArchException("Usuario no encontrado en el sistema", HttpStatusCode.NotFound);
+                throw new DapperCleanArchException("User not found", HttpStatusCode.NotFound);
 
             _unitOfWork.Commit();
 
