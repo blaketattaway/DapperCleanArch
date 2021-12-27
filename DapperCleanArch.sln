@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA65C2BB-E4D2-4C08-873A-3A21D882AAF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{76914B17-DEB7-43FA-A8F3-A91F17635343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DapperCleanArch.Application", "DapperCleanArch.Application", "{98097E84-6747-4907-9A13-9B9D2E8C4196}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DapperCleanArch.Domain", "DapperCleanArch.Domain", "{C8D84A54-399F-4DE7-9703-C4940DC0620F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DapperCleanArch.Infrastructure", "DapperCleanArch.Infrastructure", "{217DBC65-5236-4510-9DD8-940AB7EC1B17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DapperCleanArch.WebAPI", "DapperCleanArch.WebAPI", "{695D6A7A-3B54-4492-8144-8433D9E51320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperCleanArch.WebAPI", "src\DapperCleanArch.WebAPI\DapperCleanArch.WebAPI.csproj", "{2431DABC-C010-4280-9446-CD48B3CBB5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperCleanArch.Infrastructure", "src\DapperCleanArch.Infrastructure\DapperCleanArch.Infrastructure.csproj", "{05363D6A-B98D-475E-999D-AEF45AFA6C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperCleanArch.Domain", "src\DapperCleanArch.Domain\DapperCleanArch.Domain.csproj", "{8A7EF2EF-87E9-47FD-BB83-09B4835F1E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperCleanArch.Application", "src\DapperCleanArch.Application\DapperCleanArch.Application.csproj", "{A5C7A75D-7393-4EB7-919A-D2AE98803062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2431DABC-C010-4280-9446-CD48B3CBB5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2431DABC-C010-4280-9446-CD48B3CBB5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2431DABC-C010-4280-9446-CD48B3CBB5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2431DABC-C010-4280-9446-CD48B3CBB5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05363D6A-B98D-475E-999D-AEF45AFA6C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05363D6A-B98D-475E-999D-AEF45AFA6C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05363D6A-B98D-475E-999D-AEF45AFA6C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05363D6A-B98D-475E-999D-AEF45AFA6C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7EF2EF-87E9-47FD-BB83-09B4835F1E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7EF2EF-87E9-47FD-BB83-09B4835F1E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7EF2EF-87E9-47FD-BB83-09B4835F1E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7EF2EF-87E9-47FD-BB83-09B4835F1E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C7A75D-7393-4EB7-919A-D2AE98803062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C7A75D-7393-4EB7-919A-D2AE98803062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C7A75D-7393-4EB7-919A-D2AE98803062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C7A75D-7393-4EB7-919A-D2AE98803062}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98097E84-6747-4907-9A13-9B9D2E8C4196} = {CA65C2BB-E4D2-4C08-873A-3A21D882AAF3}
+		{C8D84A54-399F-4DE7-9703-C4940DC0620F} = {CA65C2BB-E4D2-4C08-873A-3A21D882AAF3}
+		{217DBC65-5236-4510-9DD8-940AB7EC1B17} = {CA65C2BB-E4D2-4C08-873A-3A21D882AAF3}
+		{695D6A7A-3B54-4492-8144-8433D9E51320} = {CA65C2BB-E4D2-4C08-873A-3A21D882AAF3}
+		{2431DABC-C010-4280-9446-CD48B3CBB5A4} = {695D6A7A-3B54-4492-8144-8433D9E51320}
+		{05363D6A-B98D-475E-999D-AEF45AFA6C01} = {217DBC65-5236-4510-9DD8-940AB7EC1B17}
+		{8A7EF2EF-87E9-47FD-BB83-09B4835F1E40} = {C8D84A54-399F-4DE7-9703-C4940DC0620F}
+		{A5C7A75D-7393-4EB7-919A-D2AE98803062} = {98097E84-6747-4907-9A13-9B9D2E8C4196}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF325A0C-4FBB-421E-87EB-80F4591DE60E}
+	EndGlobalSection
+EndGlobal
