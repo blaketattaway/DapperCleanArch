@@ -1,3 +1,3 @@
 # DapperCleanArch
 
-DotNet 6 Clean Architecture Solution using Dapper (instead of ORM), CQRS & Repository Pattern
+DotNet 6 Clean Architecture Solution using Dapper (instead of EF), CQRS & Repository Pattern
